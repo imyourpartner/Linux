@@ -3,3 +3,32 @@ Instalar git
     sudo apt update
     sudo apt install git
 ----
+Installing Visual Studio Code on Debian
+
+Complete the following steps to install Visual Studio Code on your Debian system:
+
+    Start by updating the packages index and installing the dependencies by typing:
+
+    sudo apt updatesudo apt install software-properties-common apt-transport-https curl
+
+    Copy
+
+    Import the Microsoft GPG key using the following curl command:
+
+    curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+
+    Copy
+
+    Add the Visual Studio Code repository to your system:
+
+    sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+
+    Copy
+
+    Once the apt repository is added, install the latest version of Visual Studio Code with:
+
+    sudo apt updatesudo apt install code
+
+    Copy
+
+That’s it. Visual Studio Code has been installed on your Debian desktop and you can start using it.
