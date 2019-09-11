@@ -1,0 +1,5 @@
+Instalar git
+---
+    sudo apt update
+    sudo apt install git
+----
